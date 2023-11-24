@@ -1,0 +1,48 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: red;
+  }
+  
+  header {
+    text-align: center;
+    padding: 50px 0;
+    background-color: black;
+    color: red;
+  }
+  
+  .cta {
+    text-align: center;
+    padding: 50px 0;
+    background-color: red;
+    color: #fff;
+  }
+  
+  a
+   {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: blue;
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: black;
+    color: red;
+  }
+  img
+	{
+	border-color:black;
+	border-width: 10;
+    border: 1px solid none; 
+    border-radius: 5ex;
+    padding: 5px; 
+    width: 300px; 
+	}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="product.css">
+</head>
+<body>
+    <header>
+        <h1>Our Collection</h1>
+    <nav style="align-items: center;">
+      <a href="index.html">Home</a> 
+      <a href="product.html">Products</a> 
+      <a href="contact.html">Contacts</a> 
+  </nav>
+    </header>
+<div class="product-container">
+    <div class="product-card">
+        <img src="1.jpg" alt="Product 1" class="product-image">
+        <h2 class="product-title">adidascrazyfast</h2>
+        <p class="product-price">ksh 6000</p>
+        <button onclick="addToCart('Product 1', 6000)">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="2.jpg" alt="Product 2" class="product-image">
+        <h2 class="product-title">adidascrazyfast</h2>
+        <p class="product-price">ksh 6000</p>
+        <button onclick="addToCart('Product 2', 6000)">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="3.webp" alt="Product 3" class="product-image">
+        <h2 class="product-title">adidascrazyfast</h2>
+        <p class="product-price">ksh 6000</p>
+        <button onclick="addToCart('Product 3', 6000)">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="4.avif" alt="Product 4" class="product-image">
+        <h2 class="product-title">adidascopapure</h2>
+        <p class="product-price">ksh 10000</p>
+        <button onclick="addToCart('Product 4', 10000)">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="5.jpg" alt="Product 5" class="product-image">
+        <h2 class="product-title">adidaspredator</h2>
+        <p class="product-price">ksh 8500</p>
+        <button onclick="addToCart('Product 5', 8500)">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="6.jpg" alt="product 6" class="product-image">
+        <h2 class="product-title">nikeairzoom</h2>
+        <p class="product-price">ksh 12000</p>
+        <button onclick="addToCart('Product 6', 12000)">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="7.jpeg" alt="product 7" class="product-image">
+        <h2 class="product-title">niketiempo</h2>
+        <p class="product-price">ksh 9500</p>
+        <button onclick="addToCart('Product 7', 9500)">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="8.jpg" alt="product 8" class="product-image">
+        <h2 class="product-title">niketiempo</h2>
+        <p class="product-price">ksh 11500</p>
+        <button onclick="addToCart('Product 8', 11500)">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="9.jpeg" alt="product 9" class="product-image">
+        <h2 class="product-title">nikephantomluna</h2>
+        <p class="product-price">ksh 6500</p>
+        <button onclick="addToCart('Product 9', 6500)">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="10.jpg" alt="product 10" class="product-image">
+        <h2 class="product-title">pumafuturez</h2>
+        <p class="product-price">ksh 9000</p>        
+        <button onclick="addToCart('Product 10', 9000)">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="11.jpeg" alt="product 11" class="product-image">
+        <h2 class="product-title">pumaultra</h2>
+        <p class="product-price">ksh 12000</p>
+        <button onclick="addToCart('Product 11', 12000)">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="12.jpg" alt="product 12"  class="product-image">
+        <h2 class="product-title">Pumaking</h2>
+        <p class="product-price">ksh 5500</p>
+        <button onclick="addToCart('Product 12', 5500)">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="13.jpg" alt="product 13" class="product-image">
+        <h2 class="product-title">newbalancefuron7</h2>
+        <p class="product-price">ksh 4500</p>
+        <button onclick="addToCart('Product 13', 4500)">Add to Cart</button>
+    </div>
+</div>
+
+    <div id="cart">
+        <h3>Shopping Cart</h3>
+        <div id="cart-items"></div>
+        <p>Total: ksh<span id="cart-total">0.00</span></p>
+        <a href="contact.html" class="btn">Contact us</a>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Ramo Boots. All rights reserved.</p>
+      </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
